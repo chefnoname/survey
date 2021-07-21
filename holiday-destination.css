@@ -107,7 +107,7 @@ h2 {
     "Lucida Sans", Arial, sans-serif;
 }
 
-#sendBtn {
+#submit {
   border: 2px solid #85ffc7;
   background-color: #323840;
   width: 100%;
@@ -118,8 +118,12 @@ h2 {
   cursor: pointer;
 }
 
-#sendBtn:hover {
+#submit:hover {
   background-color: #85ffc7;
   transition: color 0.4s ease-in;
   color: #323840;
+}
+
+.disNone {
+  display: none;
 }

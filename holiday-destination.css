@@ -127,3 +127,7 @@ h2 {
 .disNone {
   display: none;
 }
+
+title {
+  font-size: 20px;
+}

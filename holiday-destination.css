@@ -1,0 +1,125 @@
+body {
+  /* border: solid; */
+  background-color: #323840;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 60px;
+  border: 2px dotted #85ffc7;
+  /* box-shadow: 0 20px 20px grey; */
+}
+
+h1 {
+  margin-bottom: 15%;
+}
+
+h1,
+h2 {
+  color: #85ffc7;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.information label {
+  display: block;
+  margin: 20px auto;
+}
+
+.information input {
+  width: 100%;
+  background-color: #323840;
+  border: none;
+  border-bottom: 2px solid white;
+  color: #85ffc7;
+  font-size: large;
+  outline: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.information input:focus {
+  border-bottom: 2px solid #85ffc7;
+}
+
+.trips {
+  margin-top: 10%;
+}
+
+.trips radio {
+  background-color: #85ffc7;
+  border-radius: 50%;
+  border: none;
+}
+
+.trips select {
+  /* background-color: aquamarine; */
+  width: 60%;
+  height: 40px;
+  margin-bottom: 15px auto;
+  background-color: #323840;
+  color: #85ffc7;
+  outline: none;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.preferred {
+  margin-top: 10%;
+}
+
+.preferred p {
+  margin: 20px auto 15px;
+}
+
+.preferred input[type="checkbox"],
+.trips input[type="radio"] {
+  margin: 16px auto;
+  margin-right: 5px;
+}
+
+.comments {
+  margin-top: 10%;
+}
+
+.comments p {
+  text-align: center;
+}
+
+.comments textarea {
+  width: 100%;
+  height: 100px;
+  background-color: #323840;
+  color: #85ffc7;
+  outline: none;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#sendBtn {
+  border: 2px solid #85ffc7;
+  background-color: #323840;
+  width: 100%;
+  padding: 0.5rem;
+  font-weight: bolder;
+  color: #85ffc7;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#sendBtn:hover {
+  background-color: #85ffc7;
+  transition: color 0.4s ease-in;
+  color: #323840;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="holiday-destination.css">
+</head>
+
+<body>
+    <form>
+        <h1>Where we going next?</h1>
+        <!-- <p class="first_p">Answer these few questions and we'll e-mail you where you'll be off to next!</p> -->
+
+
+        <section class="information">
+            <!-- <fieldset> -->
+
+            <label for="name">
+                <span>First name: </span>
+            </label>
+            <input type="text" name="name" id="name" required>
+
+            <br>
+
+            <label for="lname">
+                <span>Last name: </span>
+            </label>
+            <input type="text" name="name" id="lname" required>
+
+            <br>
+
+            <label for="age">
+                <span>Age: </span>
+            </label>
+            <input type="text" name="name" id="age">
+
+            <label for="email">
+                <span>E-Mail: </span>
+            </label>
+            <input type="email" name="email" id="email" required>
+
+            <!-- </fieldset> -->
+        </section>
+
+
+        <section class="trips">
+            <!-- <fieldset> -->
+            <h2>When was your last trip?</h2>
+
+            <input type="radio" name="last_trip" id="pre_covid" value="pre">
+            <label for="pre_covid">
+                <span>Pre-Covid</span>
+            </label>
+            <br>
+
+            <input type="radio" name="last_trip" id="during_covid" value="during">
+            <label for="during_covid">
+                <span>During Covid</span>
+            </label>
+
+            <br>
+
+            <input type="radio" name="last_trip" id="post_covid" value="post">
+            <label for="post_covid">
+                <span>Post Covid</span>
+            </label>
+
+
+            <p>Your favourite continent visited</p>
+
+
+
+            <label for="continents" class="continents"></label>
+            <select name="continents" id="continents">
+                <option value=""> </option>
+                <option value="africa">Africa</option>
+                <option value="australasia">Australasia</option>
+                <option value="n_america">North America</option>
+                <option value="s_america">South America</option>
+                <option value="europe">Europe</option>
+                <option value="asia">Asia</option>
+                <option value="antartica">Antartica</option>
+            </select>
+
+            <!-- </fieldset> -->
+        </section>
+
+        <section class="preferred">
+            <!-- <fieldset> -->
+            <h2>Pick 4</h2>
+            <p>Any preferred destination?</p>
+            <input type="checkbox" name="maldives" id="maldives" value="m" class="checkmark">
+            <!-- <span class="checkmark"></span> -->
+            <label for="maldives" class="lands">
+                <span>Maldives</span>
+            </label>
+            <br>
+            <input type="checkbox" name="bahamas" id="bahamas" value="b" class="lands">
+            <span class="checkmark"></span>
+            <label for="bahamas" class="lands">
+                <span class="checkmark">Bahamas</span>
+            </label>
+            <br>
+            <input type="checkbox" name="jamaica" id="jamaica" value="j">
+            <span class="checkmark"></span>
+            <label for="jamaica" class="lands">
+                <span>Jamaica</span>
+            </label>
+            <br>
+            <input type="checkbox" name="somalia" id="somalia" value="s">
+            <span class="checkmark"></span>
+            <label for="somalia" class="lands">
+                <span>Somalia</span>
+            </label>
+            <br>
+            <input type="checkbox" name="thailand" id="thailand" value="t">
+            <span class="checkmark"></span>
+            <label for="thailand" class="lands">
+                <span>Thailand</span>
+            </label>
+            <br>
+
+            <!-- </fieldset> -->
+        </section>
+
+        <section class="comments">
+            <!-- <fieldset> -->
+            <h2>Additional comments</h2>
+            <p>Let us know anything that could effect our decision!</p>
+
+            <label for="comments"></label>
+            <textarea name="comments" id="comments" cols="1" rows="1"></textarea>
+            <br>
+            <br>
+            <br>
+
+            <button type="submit" id="sendBtn">Submit</button>
+
+        </section>
+    </form>
+</body>
+
+</html>
